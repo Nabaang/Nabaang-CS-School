@@ -8,7 +8,7 @@ wiki 참고
 
 </aside>
 
-![Untitled](C:/Users/hojun/Desktop/Export-640d49c9-1157-457d-8a24-c105888ad041/image/Untitled 6.png)
+![Untitled](image/Untitled6.png)
 
 ```python
 a = 3

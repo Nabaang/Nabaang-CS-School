@@ -6,7 +6,7 @@
 
 </aside>
 
-![Untitled](image/Untitled.png)![Untitled](C:\Users\hojun\Desktop\Export-640d49c9-1157-457d-8a24-c105888ad041\image\Untitled.png)
+![Untitled](image/Untitled.png)
 
 - 스레드는 별도의 stack(스레드 실행 환경 정보, 지역 데이터, 레지스터 등)을 할당 받고, Code, Data, Heap 영역은 같은 프로세스 내의 다른 스레드와 공유 함.
 
@@ -42,7 +42,7 @@
 
 ### User level thread
 
-![Untitled](image/Untitled 1.png)
+![Untitled](image/Untitled1.png)
 
 - **사용자 영역**의 **스레드 라이브러리**로 구현
 - 스레드와 관련된 모든 행위를 사용자 영역에서 하므로 **커널이 스레드의 존재**를 **알지 못함**.
@@ -51,7 +51,7 @@
 
 ## kernel level thread
 
-![Untitled](image/Untitled 2.png)
+![Untitled](image/Untitled2.png)
 
 - **커널**이 **스레드**와 관련된 모든 작업을 **관리**함.
 
@@ -63,11 +63,11 @@
 
 - 그림 설명
 
-  ![Untitled](image/Untitled 3.png)
+  ![Untitled](image/Untitled3.png)
 
   ## 프로세스,스레드 우선 순위가 동등한 경우
 
-  ![Untitled](image/Untitled 4.png)
+  ![Untitled](image/Untitled4.png)
 
   - 커널 레벨 스레드의 경우 스레드를 커널에서 직접 관리 하기 때문에 스레드의 실행 시간을 1/3씩 배분하여 할당
 
@@ -79,7 +79,7 @@
 
   ## Thread A가 I/O 이벤트로 wait 상태의 경우
 
-  ![Untitled](image/Untitled 5.png)
+  ![Untitled](image/Untitled5.png)
 
   - 커널 레벨에서는 thread A가 대기 상태의 경우 Thread B나 C에게 제어권을 넘겨줌.
   - 사용자 레벨에서는 Thread B에 실행권을 넘겨주지 못해, 프로세스 A가 대기 상태이므로 프로세스 B에게 실행권을 넘겨주게 됨.
@@ -107,4 +107,4 @@
 
 [운영체제 - 쓰레드란?(Thread,사용자 수준 쓰레드, 커널 수준 쓰레드, 혼합형 쓰레드)](https://coding-start.tistory.com/199)
 
-[개발자 기술면접 #1 - 운영체제](
+[개발자 기술면접 #1 - 운영체제](https://ohcode.tistory.com/2)
