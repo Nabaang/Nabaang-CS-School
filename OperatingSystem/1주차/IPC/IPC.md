@@ -1,4 +1,4 @@
-# IPC(Inter Process Comunication)
+# IPC(Inter Process Communication)
 
 프로세스들은 자신만의 공간을 가지는데 다른 프로세스의 공간에는 접근하지 못한다.
 
