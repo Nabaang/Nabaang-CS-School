@@ -8,7 +8,7 @@ wiki 참고
 
 </aside>
 
-![Untitled](image/Untitled6.png)
+![Untitled](./6.png)
 
 ```python
 a = 3
