@@ -10,7 +10,7 @@
 - SSD, HDD 등 👉🏻 `보조 기억 장치`
 
 <aside>
-🤖 **프로그램 실행을 위해서는 코드가 메모리가 로드되어야 한다. 그러나 전체 프로그램 코드가 한번에 로드될 필요가 있을까?**
+🤖 **프로그램 실행을 위해서는 코드가 메모리에 로드되어야 한다. 그러나 전체 프로그램 코드가 한번에 로드될 필요가 있을까?**
 
 </aside>
 
@@ -35,7 +35,7 @@
 > 
 - 프로그램의 일부분만 메모리에 로드되어도 프로그램 실행 가능
 - Logical Address Space의 사이즈 > Physical Address Space의 사이즈
-- Adress Spaces는 많은 프로세스들 간의 공유 가능
+- Address Spaces는 많은 프로세스들 간의 공유 가능
 - 2개 이상의 프로그램들이 동시에 실행 가능 (concurrent processing)
 - load or swap process에서 I/O가 더 적게 듦
 
