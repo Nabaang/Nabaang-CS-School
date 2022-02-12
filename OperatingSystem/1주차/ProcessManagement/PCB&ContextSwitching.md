@@ -15,13 +15,13 @@
 
 </aside>
 
-![Untitled](image/Untitled7.png)
+![Untitled](./7.png)
 
 ### process in linux
 
 kernel source code `<linux/sched.h>` 파일에 있는 `task_struct` 로 PCB를 표현
 
-![Untitled](image/Untitled8.png)
+![Untitled](./8.png)
 
 ## PCB 구성 요소
 
@@ -56,7 +56,7 @@ kernel source code `<linux/sched.h>` 파일에 있는 `task_struct` 로 PCB를 �
 5. 다음 수행할 P0 프로세스의 PCB0에서 P0 프로세스의 상태 정보가 CPU에 재로딩됩니다.
 6. P0 프로세스를 일정 시간 수행합니다.
 
-![Untitled](image/Untitled9.png)
+![Untitled](./9.png)
 
 ## Context Switching의 오버 헤드(overhead)
 

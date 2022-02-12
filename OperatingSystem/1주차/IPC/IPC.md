@@ -11,7 +11,7 @@ IPC는 크게 두가지 방식으로 나눌 수 있다.
 -   Shared Memory 방식
 -   Message Passing 방식
 
-<img src="./ipc(1).png">
+![Untitled](./10.png)
 
 왼쪽이 shared memory 방식, 오른쪽이 message passing 방식. (출처 [GeeksforGeeks](https://www.geeksforgeeks.org/inter-process-communication-ipc/))
 
